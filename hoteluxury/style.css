@@ -1,0 +1,2287 @@
+@font-face {
+  src: url(design/fonts/Karla/Karla-Bold.ttf);
+  font-family: karla bold;
+}
+
+@font-face {
+  src: url(design/fonts/Karla/Karla-Regular.ttf);
+  font-family: karla regular;
+}
+
+@font-face {
+  src: url(design/fonts/Rubik/Rubik-Black.ttf);
+  font-family: rubik black;
+}
+
+@font-face {
+  src: url(design/fonts/Rubik/Rubik-Regular.ttf);
+  font-family: rubik regular;
+}
+
+@font-face {
+  src: url(design/fonts/Rubik/Rubik-Bold.ttf);
+  font-family: rubik bold;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /*font-family: 'Rochester', cursive;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#svg {
+  opacity: 0;
+}
+
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  background-color: transparent;
+}
+
+.loader>img {
+  width: 100px;
+}
+
+.loader.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.thumb {
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+
+/* images */
+
+a>img {
+  width: 17%;
+}
+
+
+
+/* text */
+
+a {
+  text-decoration: none;
+}
+
+/*ul {
+  display: grid;
+  grid-template-columns: 10% 70% 10% 10%;
+  list-style: none;
+}*/
+
+
+
+/* div */
+
+
+
+
+
+
+header {
+    height: 120vh;
+ 
+  background-repeat: no-repeat;
+}
+
+svg {
+  width: 50%;
+  height: auto;
+  /* margin-top: 42vh;
+    animation: backcolor 20s ease infinite;*/
+  background-size: 400% 400%;
+}
+
+
+
+/*modal style*/
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.register {
+  width: 1920px;
+  background: linear-gradient(90deg, #FF6D00, #F7B267);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  margin: auto;
+}
+
+.flexregister {
+  display: flex;
+  width: 1700px;
+  margin: auto;
+}
+
+.login {
+  width: 1920px;
+  background: linear-gradient(90deg, #FF6D00, #F7B267);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  margin: auto;
+}
+
+.flexlogin {
+  display: flex;
+  width: 1700px;
+  margin: auto;
+}
+
+.registration {
+  background: white;
+  width: 821px;
+  height: 725px;
+}
+
+.registration h2 {
+  font-family: rubik regular;
+  color: #FF7900;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+.registration h3 {
+  text-align: center;
+  padding-top: 30px;
+  opacity: 0.7;
+  color: red;
+}
+
+#form {
+  display: grid;
+  width: 330px;
+  margin: auto;
+  padding-top: 45px;
+}
+
+#form input[type=text],
+input[type=password] {
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  box-shadow: 0px 2px 4px -2px #FF6D00;
+  margin-bottom: 55px;
+  border-bottom-style: groove;
+  border-bottom-color: #FF6D00;
+  height: 25px;
+  font-size: 17px;
+  font-family: rubik regular;
+}
+
+#form input[type=checkbox] {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  top: 3px;
+}
+
+#password2 {
+  margin: 0px;
+}
+
+#form ::placeholder {
+  color: #264653;
+  opacity: 0.8;
+}
+
+#form button {
+  box-shadow: 0px 0px 10px #FF5700;
+  margin-bottom: 50px;
+  height: 39px;
+  font-size: 20px;
+  width: 216px;
+  border-radius: 30px;
+  background-color: #FF7900;
+  font-family: rubik regular;
+  color: white;
+  border-width: 0;
+  margin: auto;
+}
+
+#form span,
+label {
+  color: black;
+  font-family: rubik regular;
+  font-size: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+#form a {
+  color: #FF7900;
+  font-family: rubik regular;
+}
+
+nav {
+         display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+nav img {
+      width: 150px;
+    height: 150px;
+    grid-column: 2;
+}
+nav div{
+      grid-column: 10;
+        width: 611px;
+}
+nav li {
+    font-size: 30px;
+    list-style: none;
+    padding-top: 60px;
+    float: left;
+    padding-left: 45px;
+}
+li.hreflogin {
+  color: white;
+  padding-top: 52px;
+}
+
+.hreflogin button {
+  font-size: 30px;
+  background: #FF7900;
+  border: 0px;
+  border-radius: 28px;
+  height: 55px;
+  width: 122px;
+  box-shadow: 0px 0px 10px #FF5700;
+}
+
+.hreflogin button a {
+  color: white;
+  font-family: karla regular;
+  font-size: 23px;
+  position: relative;
+  top: -3px;
+}
+
+nav a {
+  color: #264653;
+  font-family: karla bold;
+}
+
+#form .terms {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.postsbody{
+  width: 100%;
+  margin: auto;
+}
+  
+
+
+.search {
+  justify-content: center;
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.search button {
+  background: #FF7900;
+  box-shadow: 0px 0px 10px #FF6D00;
+  border: 0px;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  margin-right: -52px;
+  z-index: 1;
+}
+
+.search input[type=search] {
+  background-color: #EEF0F1;
+    border: 0px;
+    width: 800px;
+    border-radius: 5px;
+    height: 60px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-family: rubik regular;
+}
+
+.result {
+  padding-left: 180px;
+  padding-top: 145px;
+}
+
+.result h1 {
+  font-family: karla bold;
+  font-size: 50px;
+  color: #264653;
+}
+
+.result .query {
+  font-size: 50px;
+  font-family: karla bold;
+  color: #FF912E;
+}
+
+.result .countproperty {
+  color: #5E5E5E;
+  opacity: 0.7;
+  font-size: 30px;
+  font-family: rubik bold;
+}
+
+.post {
+  width: 400px;
+  height: 420px;
+  box-shadow: 0px 0px 30px #5E5E5E40;
+  border-radius: 32px;
+  margin-bottom: 65px!important;
+  margin: auto;
+}
+
+.image {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.image img {
+  width: 340px;
+  height: 190px;
+  border-radius: 30px;
+  box-shadow: 5px 20px 40px #26465350;
+}
+
+.iconbed {
+  width: 35px!important;
+  height: 27px!important;
+  position: relative;
+  top: 4px;
+}
+
+.iconsize {
+  width: 22px!important;
+  height: 23px!important;
+}
+
+.price,
+.size,
+.beds {
+  font-size: 30px;
+  font-family: rubik regular;
+  color: #5A6C72;
+  padding: 10px;
+}
+
+.name {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.name a {
+  font-size: 31px;
+  font-family: rubik bold;
+  color: #264653;
+}
+
+.aboutpost p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 150px;
+  animation: fadeInUp;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2.5s;
+}
+
+.bedrooms {
+  display: flex;
+
+  width: 1070px;
+  margin: auto;
+}
+
+.bedroom {
+    background: #264653;
+    box-shadow: 0px 0px 10px #264653;
+    width: 500px;
+    min-height: auto;
+    margin-right: 50px;
+    height: fit-content;
+}
+
+.bed img {
+  width: 45px;
+  right: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.yes {
+  width: 30px!important;
+  right: 0px!important;
+  left: 10px!important;
+  top: 0px!important;
+  position: relative;
+}
+
+.beds div {
+  text-align: center;
+}
+
+.singlebed {
+  width: 40px;
+}
+
+.about {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.about div {
+  text-align: initial;
+  width: 1070px;
+  margin: auto;
+}
+
+.about div h1 {
+  font-family: rubik light;
+  font-size: 32px!important;
+}
+
+ .about hr {
+  height: 2px;
+  width: 1070px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #FF7900;
+}
+.result hr{
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #FF7900;
+    border-color:#FF7900;;
+    color:#FF7900;
+    margin-left: 0px;
+}
+.about p {
+  text-align: initial;
+  padding-top: 15px;
+  width: 1070px;
+  margin: auto;
+  font-family: karla light;
+  font-size:22px;
+}
+
+.bedroom .price {
+  min-width: 76px;
+  height: 62px;
+  background: #2A9D8F;
+  box-shadow: 0px 0px 10px #2A9D8F;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-family: rubik regular;
+  font-size: 37px;
+  padding: 1px;
+  float: left;
+  margin-left: 20px;
+  width: auto;
+}
+
+.bedroom .book {
+  background: #FF7900;
+  box-shadow: 0px 0px 10px #FF5700;
+  border-radius: 30px;
+  width: 185px;
+  height: 56px;
+  border: 0px;
+  color: white;
+  font-family: karla regular;
+  font-size: 40px;
+  float: right;
+  margin-right: 20px;
+}
+
+.shortabout {
+  padding-top: 10px;
+  width: 1070px;
+  margin: auto;
+  text-align: start;
+  font-size: 9px;
+  color: grey;
+}
+
+.shortabout h1 {
+  font-weight: 400;
+}
+
+.rules {
+  width: 1070px;
+  margin: auto;
+  padding-top: 100px;
+  font-size: 27px;
+}
+
+.rules hr {
+  height: 2px;
+  width: 1070px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.rules div {
+  text-align: initial;
+  width: 1070px;
+  margin: auto;
+}
+
+.rules div h1 {
+  font-family: rubik light;
+  font-size: 32px;
+}
+
+.petsicon {
+  width: 40px!important;
+  position: relative;
+  top: 8px!important;
+  left: -10px!important;
+}
+
+.cigaratte {
+  padding-left: 100px;
+}
+
+.cigarrateicon {
+  width: 60px!important;
+  height: 50px!important;
+  position: relative!important;
+  left: -10px!important;
+  top: 8px!important;
+}
+
+.deny {
+  width: 25px;
+  top: 6px;
+  position: relative;
+  left: 7px;
+}
+
+.amenities {
+  width: 1070px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.amenities div h1 {
+  font-family: rubik light;
+}
+
+.amenitiesgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 27px;
+  font-family: karla regular;
+}
+
+.amenitiesgrid span {
+  padding-top: 10px;
+}
+
+.firstameneties {
+  display: grid;
+}
+
+.secondameneties {
+  display: grid;
+}
+
+.airconditioning {
+  width: 60px;
+}
+
+.firstameneties img {
+  position: relative;
+  top: 8px;
+  width: 40px;
+  left: -10px;
+}
+
+.secondameneties img {
+  position: relative;
+  top: 8px;
+  width: 40px;
+  left: -10px;
+}
+
+.firstaidkit {
+  height: 40px;
+}
+
+.shampoo {
+  width: 31px!important;
+}
+
+.amenities hr {
+  height: 2px;
+  width: 1070px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.propertyname {
+  width: 1070px;
+  margin: auto;
+  display: flex;
+}
+
+.propertyname h1 {
+  font-family: rubik light;
+  font-size: 30px;
+}
+
+.propertyname button {
+  background: green;
+  border: transparent;
+  border-radius: 2px;
+  color: white;
+  width: 80px;
+}
+.buttons {
+    padding-top: 150px;
+    margin-bottom: 80px;
+}
+.checkin{
+  display: flex;
+}
+.checkout {
+  display: flex;
+}
+.checkin_hour{
+  margin-left: 10px;
+}
+.checkout_hour{
+  margin-left: 10px;
+}
+.poststwo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+  display: flex;
+
+}
+.card p{
+     font-size: 45px;
+    width: 920px;
+    color: #264653;
+    padding-top: 180px;
+    font-family: rubik light;
+    padding-left: 30px;
+}
+
+
+.joinus{
+      float: left;
+    text-align: center;
+    padding-left: 100px;
+}
+.joinus h1{
+  color: #264653;
+    font-size: 100px;
+    width: 780px;
+    margin: auto;
+    font-family: karla bold;
+}
+.joinus p {
+      font-family: rubik light;
+    font-size: 45px;
+    width: 860px;
+    color: #264653;
+    padding-top: 50px;
+}
+.joinus button{
+      height: 60px;
+    width: 266px;
+    border-radius: 20px;
+    border: transparent;
+    background: #FF7900;
+    color: white;
+    font-family: karla regular;
+    font-size: 30px;
+    box-shadow: 0px 0px 10px #FF5700;
+    margin-top: 50px;
+}
+/*.mainindex{
+      padding-top: 300px;
+}*/
+.navillustration{
+  position: absolute;
+}
+
+
+.ragaca {
+    display: flow-root;
+    padding-top: 80px;
+}
+.woman {
+    float: right;
+    padding-right: 200px;
+}
+footer{
+  background: #264653;
+  height: 230px;
+}
+footer ul{
+      display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    text-align: center;
+        list-style: none;
+            padding-top: 100px;
+}
+footer li a {
+    font-size: 30px;
+    font-family: karla regular;
+    color: #FF7900;
+}
+
+.x{
+  display: none;
+}
+
+
+.index{
+  overflow-x: hidden;
+}
+.mainposts{
+  margin: 0px;
+  padding-top: 0px;
+}
+.postsheader{
+  height: auto;
+}
+.indexheader{
+  background-image:url("design/illustrations/navbar.svg");
+      height: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 966px!important;
+}
+.profilenavigation{
+      width: 400px;
+    float: left;
+    height: 100vh;
+}
+.profile{
+    height: 206px;
+    width: 100%;
+    background:#FF6D00;
+    text-align: center;
+}
+.rectangle1{
+position: absolute;
+    left: -27px;
+    top: 50px;
+}
+.rectangle2{
+top: -46px;
+    position: absolute;
+    left: 175px;
+}
+.profilepic{
+    padding-top: 22px;
+}
+.profilepic img{
+  border-radius: 60px;
+  width: 110px;
+  height: 110px;
+}
+.profile h1{
+  color: white;
+  font-size: 30px;
+  font-family: rubik light;
+  padding-top: 22px;
+}
+.profilefunctions{
+  background: #264653;
+  height: 100vh;
+}
+.profilefunctions div{
+height: 65px;
+
+border-bottom: solid #1E3741 5px;
+}
+.active{
+  display: flex;
+
+}
+.activediv{
+  width: 35px;
+  height: 60px!important;
+  background: #FF6D00;
+  border-bottom: 0px!important;
+}
+li{
+      list-style: none;
+}
+.profilefunctions a{
+  color: white;
+top: -5px;
+    left: 7px;
+    position: relative;
+    font-size: 21px;
+    font-family: rubik light;
+}
+.active li{
+    width: 100%;
+    padding-left: 101px!important;
+
+}
+.profilefunctions li{
+padding-top: 15px;
+padding-left: 130px;
+}
+.profilefunctions img{
+  width: 25px;
+}
+.profilefunctions button{
+  border:transparent;
+  background: transparent;
+}
+
+.bedrooms{
+  display: flex;
+}
+.postfunctions{
+      position: relative;
+    top: 30px;
+    left: 70px;
+}
+.postfunctions img{
+  width: 17px!important;
+    height: 17px!important;
+    border-radius: 0px;
+}
+#update{
+      width: 30px;
+    height: 30px;
+    background: #2A9D8F;
+    border: transparent;
+}
+.delete{
+border-radius: 60px;
+    background: #FF1100;
+    width: 30px;
+    height: 30px;
+    border: transparent;
+    color: white;
+}
+.dashboardresult, .addapartresult{
+  float: right;
+  padding-left: 0px;
+}
+.location{
+width: 393px;
+}
+.amenitieschoose{
+      width: 520px;
+    padding:0px;
+        margin-left: 50px;
+        height: 460px;
+       
+}
+.amenitieschoosegrid{
+   display:grid;
+        grid-template-columns:repeat(2, 1fr);
+}
+.building{
+  width:393px;
+  margin-left: 50px;
+}
+.addapartresult{
+  padding-left: 22px!important;
+    padding-top: 20px!important;
+    float: none;
+    padding-bottom: 15px;
+  }
+.about{
+  width: 590px;
+    margin: auto;
+    padding-top:0px!important;
+}
+.about div{
+  width:100%;
+}
+.form{
+      display: inline-block!important;
+          padding-left: 75px;
+}
+.addapartresultheadline{
+  float:right!important;
+}
+.formflex{
+  display:flex!important;
+      margin-bottom: 50px;
+}
+.location, .about, .amenitieschoose, .building{
+      border-color: #FF6D00;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+} 
+.table{
+      display: table-caption;
+      padding-left:20px;
+      padding-bottom:16px;
+}
+.location input[type='text'], input[type='number'] {
+  width:309px;
+      border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color:#FF7900;
+      box-shadow: 0px 2px 4px -2px #FF7900;
+}
+.location select{
+  width:309px;
+   border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color:#FF7900;
+      box-shadow: 0px 2px 4px -2px #FF7900;
+}
+.zip{
+  width: 50%;
+}
+.zip input[name="zip"]{
+  width:100%;
+}
+.form label{
+  font-size:23px;
+  color:#264653;
+  font-family:karla regular;
+}
+.addapartresult h1{
+  font-size:30px;
+  font-family:karla bold;
+}
+.about input[type='text']{
+  width:309px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color:#FF7900;
+  box-shadow: 0px 2px 4px -2px #FF7900;
+}
+.about textarea{
+  width:450px;
+  min-width:300px;
+  max-width:450px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-color:#FF7900;
+  box-shadow: 0px 2px 4px -2px #FF7900;
+}
+
+.bedroomchoose{
+    border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color:#FF7900;
+  box-shadow: 0px 2px 4px -2px #FF7900;
+    width: 50%!important;
+    text-align: center!important;
+    margin-bottom: 30px!important;
+
+}
+.bedroomchoose input[type='number']{
+width:65%;
+
+}
+
+.bedroomchoose h3{
+color:#264653;
+font-size:19px;
+font-family:rubik regular;
+}
+.rulesgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+.rulessecond{
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 60px;
+}
+.rulessecond select[name='checkin_hour'], .rulessecond select[name='checkout_hour']{
+      margin-left: 150px;
+}
+.rulessecond select{
+      border: transparent;
+    background: #D2D2D2;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 4px;
+color:#264653;
+font-family:karla regular;
+}
+ .amenitieschoose input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+  }
+
+
+
+  .firstamenities div {
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.secondamenities div{
+  padding-bottom: 7px;
+}
+.secondamenities div {
+    padding-right: 30px;
+}
+ .rulesfirst{
+  padding-left: 20px;
+ }
+ .rulesfirst div{
+  padding-bottom: 7px;
+ }
+ .building #image{
+      width: 200px;
+ }
+
+#button{
+      height: 20px;
+    margin-top: 15px;
+    border: transparent;
+    font-size: 25px;
+    margin-left: 3px;
+    background: transparent;
+    color: orange;
+    font-weight: 500;
+}
+.bedrooms{
+  display:flex!important;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@media only screen and (min-width: 1920px){
+
+
+.indexheader{
+  background-size: cover;
+   height: 110vh!important;
+}
+.joinus {
+    width: 1300px;
+}
+.joinus h1{
+   font-size: 100px;
+   width: 100%;
+   margin: auto;
+}
+.joinus p{
+  font-size: 60px;
+  width: 80%;
+  margin: auto;
+}
+.joinus button{
+  height: 80px;
+    width: 356px;
+    font-size: 45px;
+
+}
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  .register {
+    width: 100%;
+    margin: auto;
+  }
+  .login {
+    width: 100%;
+    margin: auto;
+  }
+  .flexregister {
+    width: 100%;
+    margin: auto;
+  }
+  .flexlogin {
+    width: 100%;
+    margin: auto;
+  }
+  svg{
+  width: 100%;
+}
+.card p {
+      font-size: 40px;
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.ragaca{
+  display: flex;
+}
+.woman {
+    padding-right: 0px;
+        padding-left: 150px;
+}
+.index{
+  overflow-x: hidden;
+}
+/*.mainindex{
+      padding-top: 300px;
+}*/
+footer{
+  width: 100%;
+}
+footer ul{
+  width: 100%;
+}
+footer ul li a{
+    font-size: 30px;
+}
+.postsbody{
+  width: 100%;
+}
+
+.posts{
+  grid-template-columns: repeat(3, 1fr);
+}
+.search{
+  margin-top: 110px;
+}
+.search button{
+      width: 65px;
+    height: 65px;
+}
+.search button img{
+      width: 35px;
+}
+.search input[type=search]{
+
+    height: 65px;
+}
+
+
+.post.animate__animated.animate__fadeInUp {
+    width: 400px;
+    height: 430px;
+}
+.image img{
+    width: 320px;
+    height: 200px;
+}
+
+.name {
+    padding-top: 15px;
+  }
+
+  .name a{
+    font-size: 32px;
+  }
+.aboutpost p {
+    padding-top: 30px;
+
+}
+.price, .size, .beds {
+    font-size: 32px;
+
+    padding: 12px;
+}
+.iconbed{
+width: 33px!important;
+    height: 26px!important;
+}
+.iconsize {
+    width: 25px!important;
+    height: 26px!important;
+}
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+.ragaca{
+      display: flex;
+}
+.woman {
+    padding-right: 0;
+}
+.card{
+  display: block;
+}
+.card p {
+      font-size: 40px;
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+svg{
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+}
+footer ul{
+  width: 100%;
+}
+footer ul li a{
+    font-size: 25px;
+}
+
+.postsbody{
+  width: 100%;
+}
+
+.posts{
+  grid-template-columns: repeat(3, 1fr);
+}
+.search{
+  margin-top: 110px;
+}
+.search button{
+      width: 65px;
+    height: 65px;
+}
+.search button img{
+      width: 35px;
+}
+.search input[type=search]{
+
+    height: 65px;
+}
+
+
+
+.post.animate__animated.animate__fadeInUp {
+    width: 380px;
+    height: 415px;
+}
+.image img{
+    width: 300px;
+    height: 190px;
+}
+
+.name {
+    padding-top: 13px;
+  }
+
+  .name a{
+    font-size: 30px;
+  }
+.aboutpost p {
+    padding-top: 27px;
+
+}
+.price, .size, .beds {
+    font-size: 30px;
+
+    padding: 10px;
+}
+.iconbed{
+width: 32px!important;
+    height: 26px!important;
+}
+.iconsize {
+    width: 23px!important;
+    height: 24px!important;
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .register {
+    width: 100%;
+    margin: auto;
+  }
+  .login {
+    width: 100%;
+    margin: auto;
+  }
+  .flexlogin {
+    width: 100%;
+    margin: auto;
+  }
+  nav img {
+       width: 190px;
+    height: 170px;
+}
+  nav li {
+    padding-top: 60px;
+  }
+  .flexregister .beach {
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+  .flexregister div img {
+    width: 100%;
+    height: 605px;
+  }
+  .flexlogin .beach {
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+  .flexlogin div img {
+    width: 100%;
+    height: 605px;
+  }
+  .registration {
+    width: 70%;
+    margin: 0px;
+    height: 530px;
+  }
+  .registration h2 {
+    padding-top: 20px;
+  }
+  #form {
+    padding-top: 25px;
+  }
+  #form input[type=text],
+  input[type=password] {
+    margin-bottom: 30px;
+  }
+  
+     .index{
+    width: 100%;
+    margin: auto;
+        overflow-x: hidden;
+  }
+
+  .ragaca{
+    display: flex;
+        width: 100%;
+    margin: auto;
+  }
+
+.woman {
+    padding-right: 0;
+}
+.woman img{
+  width: 100%;
+}
+.joinus{
+  width: 100%;
+}  
+.joinus h1{
+  width: 100%;
+  font-size:70px;
+
+}
+.joinus p {
+      font-size: 40px;
+    margin: auto;
+    width: 100%;
+}
+.joinus button{
+      width: 270px;
+    height: 60px;
+    font-size: 30px;
+}
+
+.card{display: block;}
+.card svg{
+
+    width: 100%;
+}
+.card p {
+      font-size: 40px;
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.result{
+  padding-top: 20px;
+    padding-left: 0px;
+}
+.result hr{
+  width: 80%!important;
+  margin: auto;
+}
+.result h1{
+  padding-top: 20px;
+       padding-left: 120px;
+    font-size: 50px;
+}
+.result  .query{
+font-size: 40px;
+}
+.poststwo{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+}
+footer{
+  width: 100%;
+}
+footer ul{
+  width: 100%;
+}
+footer ul li a{
+    font-size: 20px;
+}
+hr{
+  width: 100%!important;
+  margin:auto!important;
+}
+nav{
+  width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.hreflogin{
+         width: 130px!important;
+    height: 50px!important;
+}
+.hreflogin a{
+font-size: 18px!important;
+    top: -5px!important;
+
+    font-size: 25px!important;
+}
+.hreflogin button {
+    font-size: 37px;
+    background: #FF7900;
+    border: 0px;
+    border-radius: 28px;
+    height: 55px;
+    width: 122px;
+    box-shadow: 0px 0px 10px #FF5700;
+    }
+li.hreflogin {
+padding-top: 60px;
+}
+nav div{
+  width: 100%;
+}
+nav li{
+
+    padding-left: 70px;
+}
+nav a{
+  font-size: 40px;
+}
+.postsbody{
+  width: 100%;
+}
+
+.posts{
+  grid-template-columns: repeat(2, 1fr);
+}
+.search{
+  margin-top: 110px;
+}
+.search button{
+      width: 65px;
+    height: 65px;
+}
+.search button img{
+      width: 35px;
+}
+.search input[type=search]{
+
+    height: 65px;
+}
+
+
+.post.animate__animated.animate__fadeInUp {
+    width: 380px;
+    height: 415px;
+}
+.image img{
+    width: 300px;
+    height: 190px;
+}
+
+.name {
+    padding-top: 13px;
+  }
+
+  .name a{
+    font-size: 30px;
+  }
+.aboutpost p {
+    padding-top: 27px;
+
+}
+.price, .size, .beds {
+    font-size: 30px;
+
+    padding: 10px;
+}
+.iconbed{
+  width: 29px!important;
+    height: 23px!important;
+}
+.iconsize {
+    width: 19px!important;
+    height: 19px!important;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .register {
+    width: 100%;
+    margin: auto;
+  }
+  .flexregister {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .login {
+    width: 100%;
+    margin: auto;
+  }
+  .flexlogin {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  nav img {
+    width: 130px;
+     height: 130px;
+  }
+  nav ul{
+    padding-left: 60px;
+  }
+  nav li {
+    padding-top: 45px;
+  }
+  nav div{
+  width: 100%;
+}
+  .flexregister div {
+    width: 90%;
+    margin: auto;
+  }
+  .flexregister div img {
+    width: 100%;
+  }
+  .flexlogin div {
+    width: 90%;
+    margin: auto;
+  }
+  .flexlogin div img {
+    width: 100%;
+  }
+  .registration {
+    width: 100%;
+  }
+  .registration h2 {
+    font-size: 55px;
+  }
+  #form input[type=text],
+  input[type=password] {
+    height: 30px;
+    font-size: 19px;
+  }
+  #form span,
+  label {
+    font-size: 17px;
+  }
+  #form input[type=checkbox] {
+    height: 19px;
+    width: 19px;
+  }
+
+   .index{
+    width: 100%;
+    margin: auto;
+        overflow-x: hidden;
+  }
+
+  .ragaca{
+    display: flex;
+        width: 100%;
+    margin: auto;
+  }
+.woman {
+    float: right;
+    padding-right: 0px;
+}
+.woman img{
+  width: 100%;
+}
+.joinus{
+  width: 100%;
+}  
+.joinus h1{
+  width: 100%;
+  font-size:60px;
+
+}
+.joinus p {
+      font-size: 30px;
+    margin: auto;
+    width: 100%;
+}
+
+.card{display: block;}
+.card svg{
+
+    width: 100%;
+}
+.card p {
+      font-size: 30px;
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.result{
+  padding-top: 20px;
+    padding-left: 0px;
+}
+.result h1{
+  padding-top: 20px;
+    padding-left: 0px;
+    font-size: 30px;
+}
+.result  .query{
+  font-size:30px;
+}
+.poststwo{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+}
+footer{
+  width: 100%;
+}
+footer ul{
+  width: 100%;
+}
+footer ul li a{
+  font-size: 20px;
+}
+hr{
+  width: 100%!important;
+  margin:auto!important;
+}
+nav{
+  width: 100%;
+    margin: auto;
+    display: flex;
+}
+.hreflogin{
+         width: 80px!important;
+    height: 40px!important;
+}
+.hreflogin a{
+font-size: 18px!important;
+    top: -5px!important;
+
+}
+li.hreflogin {
+padding-top: 50px;
+}
+
+.postsbody{
+  width: 100%;
+}
+
+.posts{
+  grid-template-columns: repeat(2, 1fr);
+}
+.search{
+  margin-top: 110px;
+}
+.search button{
+      width: 50px;
+    height: 50px;
+}
+.search button img{
+      width: 30px;
+}
+.search input[type=search]{
+
+    height: 50px;
+}
+
+
+.post.animate__animated.animate__fadeInUp {
+    width: 350px;
+    height: 400px;
+}
+.image img{
+    width: 280px;
+    height: 190px;
+}
+
+.name {
+    padding-top: 10px;
+  }
+
+  .name a{
+    font-size: 28px;
+  }
+.aboutpost p {
+    padding-top: 23px;
+
+}
+.price, .size, .beds {
+    font-size: 28px;
+
+    padding: 10px;
+}
+.iconbed{
+  width: 29px!important;
+    height: 23px!important;
+}
+.iconsize {
+    width: 19px!important;
+    height: 19px!important;
+}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .register {
+    width: 100%;
+    margin: auto;
+  }
+  .flexregister {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .login {
+    width: 100%;
+    margin: auto;
+  }
+  .flexlogin {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  nav img {
+    width: 120px;
+    height: 120px;
+  }
+  nav li {
+    font-size: 25px;
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  .flexregister div {
+    width: 90%;
+    margin: auto;
+  }
+  .flexregister div img {
+    width: 100%;
+  }
+  .flexlogin div {
+    width: 90%;
+    margin: auto;
+  }
+  .flexlogin div img {
+    width: 100%;
+  }
+  .registration {
+    width: 100%;
+  }
+  .registration h2 {
+    font-size: 48px;
+  }
+  #form input[type=text],
+  input[type=password] {
+    height: 33px;
+    font-size: 16px;
+  }
+  #form span,
+  label {
+    font-size: 16px;
+  }
+  #form input[type=checkbox] {
+    height: 18px;
+    width: 18px;
+  }
+    .index{
+    width: 100%;
+    margin: auto;
+        overflow-x: hidden;
+  }
+
+  .ragaca{
+    display: flex;
+        width: 100%;
+    margin: auto;
+    padding-top: 80px;
+  }
+  .woman {
+/*   display: none;*/
+    float: right;
+    padding-right: 0px;
+}
+.woman img{
+  width: 100%;
+}
+.joinus{
+  width: 100%;
+}  
+.joinus h1{
+  width: 100%;
+  font-size:50px;
+
+}
+.joinus p {
+      font-size: 30px;
+    margin: auto;
+    width: 100%;
+}
+
+
+.card{display: block;}
+.card svg{
+
+    width: 100%;
+}
+.card p {
+      font-size: 30px;
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.result{
+  padding-top: 20px;
+    padding-left: 0px;
+}
+.result h1{
+  padding-top: 20px;
+    padding-left: 0px;
+    font-size: 30px;
+}
+.result  .query{
+  font-size:30px;
+}
+.poststwo{
+  display: block;
+}
+footer{
+  width: 100%;
+}
+footer ul{
+  width: 100%;
+}
+footer ul li a{
+  font-size: 15px;
+}
+hr{
+  width: 100%!important;
+  margin:auto!important;
+}
+nav{
+  width: 100%;
+    margin: auto;
+    display: flex;
+}
+.hreflogin{
+         width: 80px!important;
+    height: 40px!important;
+}
+.hreflogin a{
+font-size: 18px!important;
+    top: -5px!important;
+
+}
+li.hreflogin {
+padding-top: 50px;
+}
+.postsbody{
+  width: 100%;
+}
+
+.posts{
+  grid-template-columns: repeat(1, 1fr);
+}
+.search{
+  margin-top: 110px;
+}
+.search button{
+      width: 50px;
+    height: 50px;
+}
+.search button img{
+      width: 30px;
+}
+.search input[type=search]{
+
+    height: 50px;
+}
+
+
+.post.animate__animated.animate__fadeInUp {
+    width: 350px;
+    height: 400px;
+}
+.image img{
+    width: 280px;
+    height: 190px;
+}
+
+.name {
+    padding-top: 10px;
+  }
+
+  .name a{
+    font-size: 28px;
+  }
+.aboutpost p {
+    padding-top: 23px;
+
+}
+.price, .size, .beds {
+    font-size: 28px;
+
+    padding: 10px;
+}
+.iconbed{
+  width: 29px!important;
+    height: 23px!important;
+}
+.iconsize {
+    width: 19px!important;
+    height: 19px!important;
+}
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .register {
+    width: 100%;
+    margin: auto;
+  }
+  .login {
+    width: 100%;
+    margin: auto;
+  }
+  nav img {
+    margin-top: 15px;
+        width: 100px;
+    height: 100px;
+  }
+  nav li {
+    padding-top: 30px;
+    padding-left: 25px;
+  }
+  nav li a{
+    font-size:20px;
+  }
+  .flexregister {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .flexregister div {
+    width: 90%;
+    margin: auto;
+  }
+  .flexregister div img {
+    width: 100%;
+  }
+  .flexlogin {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .flexlogin div {
+    width: 90%;
+    margin: auto;
+  }
+  .flexlogin div img {
+    width: 100%;
+  }
+  .registration {
+    width: 100%;
+  }
+  .index{
+    width: 100%;
+    margin: auto;
+        overflow-x: hidden;
+  }
+ 
+  .ragaca{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding-top: 80px;
+}
+.woman{
+  display: none;
+
+}
+
+.joinus{
+  width: 100%;
+}  
+.joinus h1{
+  width: 100%;
+  font-size:40px;
+
+}
+.joinus p {
+      font-size: 30px;
+    margin: auto;
+    width: 100%;
+}
+
+
+.card{display: block;}
+.card svg{
+    width: 100%;
+}
+.card p {
+      font-size: 30px;
+    padding-top: 30px;
+    padding-left: 0px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.result{
+  padding-top: 20px;
+    padding-left: 0px;
+}
+.result h1{
+  padding-top: 20px;
+    padding-left: 0px;
+    font-size: 30px;
+}
+.result  .query{
+  font-size:30px;
+}
+.poststwo{
+  display: block;
+}
+footer{
+  width: 100%;
+}
+footer ul{
+  width: 100%;
+}
+footer ul li a{
+  font-size: 15px;
+}
+hr{
+  width: 100%!important;
+  margin:auto!important;
+}
+nav{
+  width: 100%;
+    margin: auto;
+    display: flex;
+}
+.hreflogin{
+      width: 70px!important;
+    height: 30px!important;
+}
+.hreflogin a{
+  font-size: 15px!important;
+    top: -10px!important;
+}
+li.hreflogin {
+
+    padding-top: 40px;
+}
+.postsbody{
+  width: 100%;
+}
+
+.posts{
+  grid-template-columns: repeat(1, 1fr);
+}
+.search{
+  margin-top: 110px;
+}
+.search button{
+      width: 50px;
+    height: 50px;
+}
+.search button img{
+      width: 30px;
+}
+.search input[type=search]{
+
+    height: 50px;
+}
+
+.post.animate__animated.animate__fadeInUp {
+    width: 300px;
+    height: 360px;
+}
+.image img{
+    width: 250px;
+    height: 160px;
+}
+
+.name {
+    padding-top: 10px;
+  }
+
+  .name a{
+    font-size: 25px;
+  }
+.aboutpost p {
+    padding-top: 20px;
+
+}
+.price, .size, .beds {
+    font-size: 25px;
+
+    padding: 8px;
+}
+.iconbed{
+  width: 27px!important;
+    height: 21px!important;
+}
+.iconsize {
+    width: 17px!important;
+    height: 17px!important;
+}
+.joinus{
+  padding-left: 0px;
+}
+
+.profilenavigation {
+    width: 320px;
+    float: left;
+    height: 100vh;
+}
+.form {
+    display: grid!important;
+    padding-left:0px;
+  }
+.location, .about, .amenitieschoose, .building {
+    width: auto;
+    margin-left:0px;
+}
+.formflex {
+    display: grid!important;
+    margin-bottom: 50px;
+}
+
+}

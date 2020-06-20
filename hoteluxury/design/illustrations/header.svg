@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1504" height="1277" viewBox="0 0 1504 1277">
+  <defs>
+    <filter id="Path_345" x="0" y="0" width="1270" height="1110" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#5e554d"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_346" x="82" y="87" width="1270" height="1110" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#5e554d"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_347" x="234" y="167" width="1270" height="1110" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#5e554d"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="header" transform="translate(-789 -291)">
+    <g transform="matrix(1, 0, 0, 1, 789, 291)" filter="url(#Path_345)">
+      <path id="Path_345-2" data-name="Path 345" d="M15004,1076s16-516,364-496c202.534,11.64,226.485-227.8,320-394.667C15755.454,64.969,15894.007-7.112,15996,28c244,84,248-32,248-32V1076Z" transform="translate(-14989 19)" fill="#ff6d00"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 789, 291)" filter="url(#Path_346)">
+      <path id="Path_346-2" data-name="Path 346" d="M15004,1076s16-516,364-496c217.5,12.5,238.316-248.776,339-418.667C15767.441,59.348,15904.5-3.5,15996,28c244,84,248-32,248-32V1076Z" transform="translate(-14907 106)" fill="#ff7900"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 789, 291)" filter="url(#Path_347)">
+      <path id="Path_347-2" data-name="Path 347" d="M15004,1076s16-516,364-496c198.707,11.42,194.188-212.684,291-377,72.583-123.195,253.678-203.685,337-175,244,84,248-32,248-32V1076Z" transform="translate(-14755 186)" fill="#ff9100"/>
+    </g>
+  </g>
+</svg>
