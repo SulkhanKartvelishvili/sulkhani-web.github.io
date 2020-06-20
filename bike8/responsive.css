@@ -1,0 +1,1366 @@
+@media screen and (max-width: 1600px) and (min-width:900px) {
+    .container {
+        max-width: 1600px;
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .container>div {
+        clear: both;
+        min-height: 70vh;
+    }
+
+    .img {
+        height: 600px;
+        width: 1349px;
+    }
+
+    .img2 {
+        height: 85px;
+        width: 94px;
+    }
+
+    .img3 {
+        padding-top: 117px;
+    }
+
+    .img6 {
+        padding-top: 40px;
+    }
+
+    .first-six {
+        text-align: center;
+        height: 490px;
+    }
+
+    .sevenfour {
+        max-width: 534px;
+        float: left;
+        width: 33.3%;
+    }
+
+    .sevenfive {
+        background-image: url("https://live.staticflickr.com/65535/49078439308_da5bbacb96_o.png");
+        max-width: 1066px;
+        float: left;
+        height: 600px;
+        width: calc(100% - 33.33%);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .sevensix {
+        background-image: url("https://live.staticflickr.com/65535/49078968376_fd3bbe3da0_o.png");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .head {
+        background-image: url("https://live.staticflickr.com/65535/49079172702_bbd582019c_o.png");
+        height: 800px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar ul {
+        padding-left: 0px;
+        display: inline-flex;
+        margin-top: 26px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .navbar li {
+        padding: 0px 31.61px;
+        display: inline;
+        font-weight: 600;
+    }
+
+    .second {
+        height: 470px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 3px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 18px;
+        opacity: 1;
+        font-family: 'Lato', sans-serif;
+        margin-top: 0px;
+        color: #848789;
+    }
+
+    .title {
+        width: 441px;
+        margin: auto;
+        padding-top: 34px;
+    }
+
+    .paragraph {
+        width: 1079px;
+        margin-left: 280px;
+        margin: auto;
+        width: 100%;
+        padding-top: 35px;
+    }
+
+    .third {
+        height: 600px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .thirdtwo {
+        background-image: url("https://live.staticflickr.com/65535/49078969401_b180aa0292_o.png");
+        background-repeat: no-repeat;
+        height: 600px;
+        float: left;
+        max-width: 1067px;
+        width: calc(100% - 33.3%);
+    }
+
+    .fourth {
+        width: 100%;
+        height: 100%;
+        top: 241px;
+        background-image: url("image/Logo@6X.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .five {
+        max-width: 33.3%;
+        height: 600px;
+        float: left;
+        width: 33.3%;
+    }
+
+    .eleven {
+        height: 600px;
+        max-width: 1600px;
+        clear: both;
+        margin: auto;
+        width: 100%;
+    }
+
+    .elevenone {
+        height: 600px;
+        width: 33.3333%;
+        background-image: url("https://live.staticflickr.com/65535/49079172417_5ff29b84c6_o.png");
+        float: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .eleventwo {
+        background-image: url(https://live.staticflickr.com/65535/49078438373_af3d2a09ca_o.png);
+        height: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .eleventhree {
+        height: 600px;
+        width: 33.33%;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+        float: left;
+    }
+
+    .elevensix {
+        height: 373px;
+    }
+
+    .img9 {
+        margin-top: 58px;
+        padding: 0;
+    }
+
+    .img8 {
+        padding-top: 40px;
+        width: 51px;
+    }
+
+    .text {
+        font-size: 18px;
+        color: rgba(53, 55, 56, 255);
+        padding-top: 20px;
+        font-family: 'Lato', sans-serif;
+        width: 271px;
+        margin: auto;
+    }
+
+    .eleventhree p {
+        padding-top: 26px;
+        font-size: 16px;
+        color: rgba(132, 135, 137, 255);
+        font-family: 'Lato', sans-serif;
+        padding-left: 0;
+        padding-right: 0;
+        width: 90%;
+        margin: auto;
+        height: auto;
+        text-align: justify;
+    }
+
+    .elevenfour {
+        padding-top: 26px;
+        overflow: hidden;
+    }
+
+    .elevenfive {
+        background-image: url("https://live.staticflickr.com/65535/49079172487_9529d64435_o.png");
+        background-repeat: no-repeat;
+        height: 600px;
+        float: left;
+        width: 33.3%;
+    }
+
+    .img15 {
+        display: block;
+        margin: auto;
+        padding-top: 70px;
+    }
+
+    .p2 {
+        text-align: justify;
+        padding: 0!important;
+        padding-top: 26px!important;
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+    .six {
+        height: 200px;
+        overflow-x: hidden;
+    }
+
+    .seven {
+        height: 600px;
+    }
+
+    .seventwo {
+        width: 535px;
+        height: 400px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .img5 {
+        width: 32px;
+        height: 32px;
+        margin: auto;
+        margin-top: 61px;
+    }
+
+    .eight {
+        background-color: #282f35;
+        height: 200px;
+        max-width: 1599px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+        background: transparent;
+        text-align: center;
+        border-color: #ffffff73;
+    }
+
+    .atwo {
+        color: rgba(255, 255, 255, 255);
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .forheight {
+        height: 75px;
+        text-align: center;
+    }
+
+    .eighttwo {
+        text-align: center;
+    }
+
+    .nine {
+        max-width: 1600px;
+        height: 469px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .forheighttwo {
+        height: 109px;
+    }
+
+    .ninetwo {
+        text-align: center;
+    }
+
+    .navbar a {
+        font-size: 13pt;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+
+    .fourteen {
+        max-width: 1600px;
+        margin: auto;
+        height: 250px;
+        background-image: url("image/Bg@1X.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        background-repeat: repeat;
+        max-width: 1600px;
+        margin: auto;
+        background-repeat: repeat;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .fourteenone {
+        padding-top: 99px;
+        padding-left: 249px;
+    }
+
+    .fourteentwo {
+        width: 100%;
+        margin: auto;
+        height: 218px;
+        display: block;
+        text-align: center;
+    }
+
+    .fourteenthree {
+        width: 100%;
+        float: none;
+        padding: unset;
+        width: 100%;
+        float: none;
+        padding: unset;
+        text-align: center;
+        width: 100%;
+        height: 15%;
+        margin: auto;
+    }
+
+    .fourteentwo ul {
+        padding-top: 108px;
+    }
+
+    .fourteenfour {
+        height: 10vh;
+        width: 100%;
+        margin: auto;
+        float: none;
+        padding: unset;
+        display: unset;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 22px;
+        color: rgba(132, 135, 137, 255);
+        text-align: center;
+        width: 184px;
+        margin: auto;
+    }
+
+    input[type="text"] {
+        width: 400px;
+        height: 69px;
+        font-size: 20px;
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        padding-left: 28px;
+    }
+
+    input[type="submit"] {
+        width: 126px;
+        height: 69px;
+        background-color: #64c29e;
+        background-image: url(image/GO@1X.png);
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        background-position: center;
+        background-origin: content-box;
+        border: transparent;
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+
+    .ninethree {
+        max-width: 1600px;
+    }
+
+    .forheightthree {
+        height: 39px;
+    }
+
+    .forheightfive {
+        height: 35px;
+    }
+
+    .ten {
+        max-width: 1600px;
+        height: 469px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .forheightfour {
+        height: 124px;
+    }
+
+    .tentwo {
+        padding-top: 104px;
+    }
+
+    ul {
+        list-style: none;
+        display: inline-flex;
+    }
+
+    li {
+        padding: 0px 9px;
+    }
+
+    li .different {
+        opacity: 0.4;
+    }
+
+    h6 {
+        width: 297px;
+        margin: auto;
+        margin-top: 37px;
+        font-size: 18px;
+        color: rgba(53, 55, 56, 255);
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .ten p {
+        padding-top: 27px;
+        font-size: 24px;
+        width: 1036px;
+        margin: auto;
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        width: 100%;
+    }
+
+    .twelvetwo {
+        height: 267px;
+        width: 534px;
+        float: left;
+    }
+
+    .twelve>.col {
+        width: 33.3%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
+    .col>img {
+        width: 50%;
+        height: 54%;
+        object-fit: cover;
+    }
+
+    .col>img:last-child {
+        width: 100%;
+    }
+
+    .twelve .col:nth-child(2) img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .twelve {
+        max-width: 1600px;
+        height: 534px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .five h3 {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 3px;
+        margin-top: 31px;
+    }
+
+    .differenttwo {
+        width: 267px;
+        height: 267px;
+        float: left;
+    }
+
+    .differentone {
+        width: 267px;
+        height: 267px;
+    }
+
+    .differentthree {
+        width: 534px;
+    }
+
+    .twelvethree {
+        width: 267px;
+        height: 534px;
+        margin: auto;
+        float: left;
+        background-image: url("image/Layer 22@1X.png");
+    }
+
+    .twelvefour {
+        background-image: url("image/Layer 25@1X.png");
+        width: 269px;
+        height: 534px;
+        margin: auto;
+        float: left;
+    }
+
+    .twelvefive {
+        max-width: 530px;
+        height: 267px;
+        margin: auto;
+        float: left;
+        background-image: linear-gradient(90deg, rgba(127, 200, 170, 0.8) 0%, rgba(127, 200, 170, 0.8015581232492998) 100%), url("image/Layer 23@1X.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .twelveimg {
+        width: 50% !important;
+        float: left;
+    }
+
+    .twelveimgtwo {
+        width: 50% !important;
+    }
+
+    .twelvesix {
+    }
+
+    .twelvesix h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .theerteen {
+        padding-top: 40px;
+    }
+
+    .twelvesixtwo {
+        text-align: center;
+        padding-top: 107px;
+    }
+
+    .fourteenfour h4 {
+        width: auto;
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .fourteen a {
+        padding: 0px 10px;
+    }
+
+    .fourteen h3 {
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .fourteen h4 {
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 14px;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .fourteen h5 {
+        font-family: lato, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .seventwo h3 {
+        margin-top: 29px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .seventwo p {
+        width: 397px;
+        height: 134px;
+        padding-top: 26px;
+        margin: auto;
+        font-size: 16px;
+        width: 90%;
+        text-align: justify;
+        color: #848789;
+        height: a;
+        height: auto;
+    }
+
+    .six img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        height: 60%;
+    }
+
+    .seventhree img {
+        width: 100%;
+        height: 33.4%;
+        object-fit: cover;
+    }
+
+    .seventhree {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .container {
+        max-width: 1600px;
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .container>div {
+        clear: both;
+        min-height: 70vh;
+        height: auto;
+    }
+
+    .img {
+        height: 600px;
+        width: 1349px;
+    }
+
+    .img2 {
+        height: 85px;
+        width: 94px;
+    }
+
+    .img3 {
+        padding-top: 117px;
+    }
+
+    .img6 {
+        padding-top: 30px;
+    }
+
+    .elevenfour img {
+        width: 100%;
+        height: auto;
+    }
+
+    .first-six {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        min-height: 50vh;
+        height: auto;
+        padding-bottom: 80;
+    }
+
+    .sevenfour {
+        max-width: 100%;
+        float: none;
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .sevenfive {
+        background-image: url("https://live.staticflickr.com/65535/49078439308_da5bbacb96_o.png");
+        max-width: 100%;
+        float: none;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .sevensix {
+        background-image: url("https://live.staticflickr.com/65535/49078968376_fd3bbe3da0_o.png");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .head {
+        background-image: url("https://live.staticflickr.com/65535/49079172702_bbd582019c_o.png");
+        height: 800px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar ul {
+        padding-left: 0px;
+        display: inline-flex;
+        margin-top: 26px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .navbar li {
+        padding: 0px 20px;
+        display: inline;
+        font-weight: 600;
+    }
+
+    .second {
+        height: 470px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 3px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        margin: auto;
+        font-size: 16px;
+        opacity: 1;
+        font-family: 'Lato', sans-serif;
+        margin-top: 0px;
+        margin: auto;
+        color: #848789;
+    }
+
+    .title {
+        width: 441px;
+        margin: auto;
+        padding-top: 34px;
+    }
+
+    .paragraph {
+        width: 1079px;
+        margin-left: 280px;
+        margin: auto;
+        padding-top: 35px;
+        width: 100%;
+    }
+
+    .third {
+        height: 600px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .thirdtwo {
+        background-image: url("https://live.staticflickr.com/65535/49078969401_b180aa0292_o.png");
+        background-repeat: no-repeat;
+        height: 100vh;
+        float: none;
+        max-width: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .fourth {
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .five {
+        max-width: 100%;
+        height: auto;
+        float: none;
+        width: 100%;
+        text-align: center;
+        min-height: 50vh;
+    }
+
+    .eleven {
+        height: 600px;
+        max-width: 1600px;
+        clear: both;
+        margin: auto;
+        width: 100%;
+    }
+
+    .elevenone {
+        height: 100vh;
+        width: 100%;
+        background-image: url("https://live.staticflickr.com/65535/49079172417_5ff29b84c6_o.png");
+        float: none;
+        background-position: center;
+    }
+
+    .eleventwo {
+        background-image: url(https://live.staticflickr.com/65535/49078438373_af3d2a09ca_o.png);
+        height: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .eleventhree {
+        max-height: 95vh;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        float: none;
+        min-height: 50vh;
+        overflow-x: hidden;
+        height: auto;
+        overflow: auto;
+        padding: 0;
+        overflow-y: hidden;
+    }
+
+    .elevensix {
+        height: auto;
+        min-height: 50vh;
+        padding-bottom: 80px;
+        overflow-y: hidden;
+    }
+
+    .img9 {
+        margin-top: 58px;
+        padding-left: 257px;
+        padding-right: 254px;
+        padding: 0;
+    }
+
+    .img8 {
+        padding-top: 40px;
+        width: 51px;
+    }
+
+    .text {
+        font-size: 18px;
+        color: rgba(53, 55, 56, 255);
+        padding-top: 20px;
+        font-family: 'Lato', sans-serif;
+        width: 271px;
+        margin: auto;
+    }
+
+    .eleventhree p {
+        padding-top: 26px;
+        padding-left: 69px;
+        padding-right: 68px;
+        font-size: 16px;
+        color: rgba(132, 135, 137, 255);
+        text-align: justify;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .elevenfour {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+        overflow-y: hidden;
+    }
+
+    .elevenfive {
+        background-image: url("https://live.staticflickr.com/65535/49079172487_9529d64435_o.png");
+        background-repeat: no-repeat;
+        height: 121vh;
+        float: none;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        min-height: 154vh;
+    }
+
+    .img15 {
+        display: block;
+        margin: auto;
+        padding-top: 70px;
+    }
+
+    .p2 {
+        text-align: justify;
+        padding-top: 26px;
+        padding-left: 67px;
+        padding-right: 68px;
+    }
+
+    .six {
+        width: 100%;
+        overflow-x: hidden;
+        height: auto;
+    }
+
+    .seven {
+        height: 600px;
+    }
+
+    .seventwo {
+        width: 100%;
+        text-align: center;
+        padding: 80px;
+        height: auto;
+    }
+
+    .img5 {
+        width: 32px;
+        height: 32px;
+        margin: auto;
+    }
+
+    .eight {
+        background-color: #282f35;
+        max-width: 1599px;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+        background: transparent;
+        text-align: center;
+        border-color: #ffffff73;
+    }
+
+    .atwo {
+        color: rgba(255, 255, 255, 255);
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .forheight {
+        height: 75px;
+        text-align: center;
+    }
+
+    .eighttwo {
+        text-align: center;
+    }
+
+    .nine {
+        max-width: 1600px;
+        height: 469px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .forheighttwo {
+        height: 109px;
+    }
+
+    .ninetwo {
+        text-align: center;
+    }
+
+    .navbar a {
+        font-size: 8pt;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+
+    .fourteen {
+        max-width: 1600px;
+        margin: auto;
+        height: 250px;
+        background-repeat: repeat;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .fourteenone {
+        padding-top: 99px;
+        padding-left: 249px;
+    }
+
+    .fourteentwo {
+        width: 100%;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .fourteenthree {
+        width: 100%;
+        float: none;
+        padding: unset;
+        text-align: center;
+    }
+
+    .fourteentwo ul {
+        padding-top: 108px;
+    }
+
+    .fourteenfour {
+        height: 10vh;
+        width: 100%;
+        margin: auto;
+        float: none;
+        padding: unset;
+        display: unset;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 22px;
+        color: rgba(132, 135, 137, 255);
+        text-align: center;
+        width: 184px;
+        margin: auto;
+    }
+
+    input[type="text"] {
+        width: 400px;
+        height: 69px;
+        font-size: 20px;
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        padding-left: 28px;
+    }
+
+    input[type="submit"] {
+        width: 126px;
+        height: 69px;
+        background-color: #64c29e;
+        background-image: url(image/GO@1X.png);
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        background-position: center;
+        background-origin: content-box;
+        border: transparent;
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+
+    .ninethree {
+        max-width: 1600px;
+    }
+
+    .forheightthree {
+        height: 39px;
+    }
+
+    .forheightfive {
+        height: 35px;
+    }
+
+    .ten {
+        max-width: 1600px;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 80;
+    }
+
+    .forheightfour {
+        height: 124px;
+    }
+
+    .tentwo {
+        padding-top: 104px;
+    }
+
+    ul {
+        list-style: none;
+        display: inline-flex;
+    }
+
+    li {
+        padding: 0px 9px;
+    }
+
+    li .different {
+        opacity: 0.4;
+    }
+
+    h6 {
+        width: 297px;
+        margin: auto;
+        margin-top: 37px;
+        font-size: 18px;
+        color: rgba(53, 55, 56, 255);
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .ten p {
+        padding-top: 27px;
+        font-size: 24px;
+        width: 1036px;
+        margin: auto;
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        width: 100%;
+    }
+
+    .twelvetwo {
+        height: 267px;
+        width: 534px;
+        float: left;
+    }
+
+    .twelve>.col {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .col>img {
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .col>img:last-child {
+        width: 100%;
+    }
+
+    .seventhree img {
+        height: auto;
+    }
+
+    .twelve .col:nth-child(2) img {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .twelve {
+        max-width: 1600px;
+        height: 534px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .five h3 {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 3px;
+        margin-top: 0px;
+        margin: 0;
+        padding-top: 31px;
+    }
+
+    .differenttwo {
+        width: 267px;
+        height: 267px;
+        float: left;
+    }
+
+    .differentone {
+        width: 267px;
+        height: 267px;
+    }
+
+    .differentthree {
+        width: 534px;
+    }
+
+    .twelvethree {
+        width: 267px;
+        height: 534px;
+        margin: auto;
+        float: left;
+        background-image: url("image/Layer 22@1X.png");
+    }
+
+    .twelvefour {
+        background-image: url("image/Layer 25@1X.png");
+        width: 269px;
+        height: 534px;
+        margin: auto;
+        float: left;
+    }
+
+    .twelvefive {
+        max-width: 100%;
+        height: 50%;
+        margin: auto;
+        float: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .twelveimg {
+        width: 50% !important;
+        float: left;
+    }
+
+    .twelveimgtwo {
+        width: 50% !important;
+    }
+
+    .twelvesix {
+    }
+
+    .twelvesix h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .theerteen {
+        padding-top: 40px;
+    }
+
+    .twelvesixtwo {
+        text-align: center;
+        padding-top: 150px;
+    }
+
+    .fourteen {
+        max-width: 1600px;
+        margin: auto;
+        background-repeat: repeat;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .fourteenfour h4 {
+        width: 100%;
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        text-align: center;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .fourteen a {
+        padding: 0px 10px;
+    }
+
+    .fourteen h3 {
+        font-family: lato, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .fourteen h4 {
+        font-family: lato, sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 14px;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .fourteen h5 {
+        font-family: lato, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        color: rgba(132, 135, 137, 255);
+    }
+
+    .twelveseven h6 {
+        width: auto;
+    }
+
+    .seventwo h3 {
+        margin-top: 29px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .seventwo p {
+        width: 100%;
+        height: 134px;
+        padding-top: 26px;
+        margin: auto;
+        font-size: 16px;
+        text-align: justify;
+        color: #848789;
+        height: auto;
+    }
+}
