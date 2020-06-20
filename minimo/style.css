@@ -1,0 +1,351 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* images */
+.musicfestival img {
+    width: 420px;
+    height: 280px;
+}
+
+image {
+    text-align: center;
+    width: 420px;
+    margin: auto;
+}
+
+.imagetwo img {
+    height: 280px;
+    width: 419px;
+}
+
+.imagefour img {
+    width: 419px;
+    height: 280px;
+}
+
+.imageone {
+    padding-right: 17px;
+}
+
+.imagetwo {
+    padding-right: 18px;
+}
+
+.imagethree {
+    padding-right: 71px;
+}
+
+/* text */
+.navbar h3 {
+    float: left;
+    font-size: 30px;
+    padding-top: 69px;
+    font-family: 'Inconsolata';
+    letter-spacing: 8px;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 76px 0px;
+    float: right;
+    font-family: 'Playfair Display', Serif;
+}
+
+.navbar li {
+    font-size: 14px;
+    list-style: none;
+}
+
+.lione {
+    width: 191px;
+}
+
+.litwo {
+    width: 191px;
+}
+
+.lithree {
+    width: 137px;
+}
+
+.photodiary h6 {
+    font-size: 14px;
+    color: rgba(180, 173, 158, 255);
+    padding-top: 52px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 82px;
+}
+
+h5 {
+    font-size: 30px;
+    color: rgba(98, 98, 98, 255);
+    font-family: 'Playfair Display', Serif;
+    padding-top: 28px;
+    padding-left: 81px;
+}
+
+.photodiary p {
+    font-size: 14px;
+    color: rgba(98, 98, 98, 255);
+    font-family: 'Playfair Display', Serif;
+    padding-top: 34px;
+    width: 893px;
+    margin: auto;
+}
+
+.text h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: rgba(180, 173, 158, 255);
+    display: flex;
+    font-weight: 100;
+}
+
+.text h5 {
+    padding: 0;
+    padding-top: 28px;
+}
+
+.text p {
+    padding-top: 24px;
+    font-size: 14px;
+    color: rgba(98, 98, 98, 255);
+    width: 414px;
+    font-family: 'Playfair Display', Serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgba(51, 51, 51, 255);
+    font-family: 'Playfair Display', Serif;
+    padding-top: 73px;
+    width: 374px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: contents;
+}
+
+.first h3 {
+    font-family: 'Playfair Display', Serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 255);
+    float: right;
+}
+
+.second h3 {
+    font-family: 'Playfair Display', Serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 255);
+}
+
+.third h2 {
+    font-family: 'Playfair Display', Serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 255);
+}
+
+/* div */
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    height: 662px;
+    margin: auto;
+    background-image: url(image/image@1X.png);
+    background-repeat: no-repeat;
+    width: 1063px;
+}
+
+.navbarfirst {
+    float: right;
+}
+
+.photodiary {
+    margin: auto;
+    width: 1063px;
+}
+
+.musicfestival {
+    width: 474px;
+    padding-left: 16px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.posts {
+    padding-top: 135px;
+    padding-left: 46px;
+    height: 620px;
+    width: 1063px;
+    margin: auto;
+}
+
+.text {
+    padding-top: 34px;
+}
+
+.firstline {
+    float: left;
+    height: 484px;
+}
+
+.secondline {
+    float: right;
+    width: 422px;
+    height: 484px;
+}
+
+.forheight {
+    height: 122px;
+}
+
+.coffe {
+    height: 321px;
+}
+
+.thirdline {
+    width: 50%;
+    padding-left: 60px;
+    float: left;
+}
+
+.fourthline {
+    float: right;
+}
+
+.postsone {
+    height: 505px;
+    width: 1063px;
+    margin: auto;
+}
+
+.newsletter {
+    background-image: url("image/background@1X.png");
+    width: 1200px;
+    height: 287px;
+    text-align: center;
+    margin: auto;
+    clear: both;
+}
+
+.input {
+    padding-top: 82px;
+}
+
+input {
+    width: 399px;
+    height: 28px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    border-left: 0;
+    background-color: #f0f0f0;
+    font-family: 'Playfair Display', Serif;
+    font-size: 14px;
+    color: rgba(98, 98, 98, 255);
+    padding-bottom: 14px;
+    padding-left: 3px;
+    background-image: url("image/send icon@1X.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.americandream {
+    width: 423px;
+    height: 283px;
+}
+
+.fourthline {
+    width: 420px;
+    height: 298px;
+}
+
+.top10 {
+    float: left;
+    padding-left: 60px;
+}
+
+.poststwo {
+    height: 590px;
+    padding-top: 102px;
+    width: 1063px;
+    margin: auto;
+}
+
+.colddays {
+    float: right;
+}
+
+.button {
+    text-align: center;
+    /* padding-top: 165px; */
+    width: 1063px;
+    margin: 30px auto;
+    display: block;
+}
+
+.button button {
+    width: 164px;
+    height: 60px;
+    background-color: white;
+    border-top-width: thin;
+    border-color: #626262;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-right-width: thin;
+    font-family: 'Playfair Display', Serif;
+    font-size: 20px;
+    color: rgba(98, 98, 98, 255);
+}
+
+.heighttwo {
+    height: 1370px;
+}
+
+.footer {
+    background-image: url("image/background@2X.png");
+    width: 1200px;
+    height: 97px;
+    margin: auto;
+}
+
+.first {
+    width: 190px;
+    float: left;
+    padding-top: 40px;
+}
+
+.second {
+    width: 46px;
+    float: left;
+    padding-top: 40px;
+    margin-left: 26px;
+}
+
+.third {
+    padding-top: 40px;
+    float: right;
+    padding-right: 21px;
+}
+
+.four {
+    padding-top: 40px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    margin-top: 1370px;
+}

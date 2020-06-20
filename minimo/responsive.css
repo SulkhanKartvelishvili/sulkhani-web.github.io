@@ -1,0 +1,1100 @@
+@media screen and (min-width: 992px) and (max-width: 1920px) {
+    /* images */ .musicfestival img {
+        width: 420px;
+        height: 280px;
+    }
+
+    image {
+        text-align: center;
+        width: 420px;
+        margin: auto;
+    }
+
+    .imagetwo img {
+        height: 280px;
+        width: 419px;
+    }
+
+    .imagefour img {
+        width: 419px;
+        height: 280px;
+    }
+
+    .imageone {
+        padding-right: 17px;
+        width: 30px;
+    }
+
+    .imagetwo {
+        padding-right: 18px;
+        width: 49px;
+    }
+
+    .imagethree {
+        padding-right: 71px;
+        width: 93px;
+    }
+
+    /* text */
+    .navbar h3 {
+        /* float: left; */
+        font-size: 30px;
+        padding-top: 69px;
+        font-family: 'Inconsolata';
+        letter-spacing: 8px;
+        font-size: 60px;
+        float: none;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        padding: 76px 0px;
+        float: right;
+        font-family: 'Playfair Display', Serif;
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+
+    .navbar li {
+        font-size: 14px;
+        list-style: none;
+        font-size: 30px;
+        /* text-align: center; */
+        /* width: 100%; */
+        margin: auto;
+    }
+
+    .lione {
+        width: 191px;
+    }
+
+    .litwo {
+        width: 220px;
+    }
+
+    .lithree {
+        width: 137px;
+    }
+
+    .photodiary h6 {
+        font-size: 14px;
+        color: rgba(180, 173, 158, 255);
+        padding-top: 52px;
+        font-family: 'Ubuntu', sans-serif;
+        /* padding-left: 82px; */
+        font-size: 25px;
+        /* padding-left: 0px; */
+    }
+
+    h5 {
+        font-size: 35px;
+        color: rgba(98, 98, 98, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 28px;
+        padding-left: 81px;
+    }
+
+    .photodiary p {
+        padding-left: 83px;
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 34px;
+        width: 893px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .text h6 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        color: rgba(180, 173, 158, 255);
+        display: flex;
+        font-weight: 100;
+        font-size: 21px;
+        width: 100px;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .text h5 {
+        padding: 0;
+        padding-top: 28px;
+        font-size: 37px;
+        width: 430px;
+        width: 100%;
+    }
+
+    .text p {
+        padding-top: 24px;
+        font-size: 21px;
+        color: rgba(98, 98, 98, 255);
+        width: 50%;
+        margin: auto;
+        font-family: 'Playfair Display', Serif;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: rgba(51, 51, 51, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 73px;
+        width: 374px;
+        margin: auto;
+    }
+
+    .third h2 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 19px;
+        color: rgba(0, 0, 0, 255);
+    }
+
+    .first h3 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 19px;
+        color: rgba(0, 0, 0, 255);
+        float: right;
+    }
+
+    .second h3 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 19px;
+        color: rgba(0, 0, 0, 255);
+    }
+
+    /* div */
+    .main {
+        margin: auto;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 662px;
+        margin: auto;
+        background-image: url(image/image@1X.png);
+        background-repeat: no-repeat;
+        width: 1063px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbarfirst {
+        float: right;
+        float: none;
+    }
+
+    .photodiary {
+        margin: auto;
+        width: 1063px;
+        width: 100%;
+    }
+
+    .musicfestival {
+        width: 100%;
+        height: 100%;
+        padding-left: 16px;
+    }
+
+    .posts {
+        width: 100%;
+        padding-left: 46px;
+        height: 100%;
+        width: 1063px;
+        margin: auto;
+        width: 70%;
+        text-align: center;
+    }
+
+    .text {
+        padding-top: 34px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .firstline {
+        float: left;
+        height: 484px;
+    }
+
+    .secondline {
+        float: right;
+        width: 422px;
+        height: 484px;
+    }
+
+    .forheight {
+        height: 130px;
+    }
+
+    .coffe {
+        height: 321px;
+    }
+
+    .thirdline {
+        width: 50%;
+        padding-left: 60px;
+        float: left;
+    }
+
+    .fourthline {
+        float: right;
+    }
+
+    .postsone {
+        height: 505px;
+        width: 1063px;
+        margin: auto;
+        width: 70%;
+    }
+
+    .newsletter {
+        background-image: url("image/background@1X.png");
+        width: 1200px;
+        height: 287px;
+        text-align: center;
+        margin-top: 122px;
+        width: 100%;
+    }
+
+    .input {
+        padding-top: 82px;
+    }
+
+    input {
+        width: 399px;
+        height: 28px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid black;
+        border-left: 0;
+        background-color: #f0f0f0;
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        padding-bottom: 14px;
+        padding-left: 3px;
+        background-image: url("image/send icon@1X.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .americandream {
+        width: 423px;
+        height: 283px;
+    }
+
+    .fourthline {
+        width: 420px;
+        height: 298px;
+    }
+
+    .top10 {
+        float: left;
+        padding-left: 60px;
+    }
+
+    .poststwo {
+        height: 590px;
+        padding-top: 102px;
+        width: 1063px;
+        margin: auto;
+        width: 70%;
+    }
+
+    .colddays {
+        float: right;
+    }
+
+    .button {
+        text-align: center;
+        padding-top: 165px;
+        width: 1063px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .button button {
+        width: 200px;
+        height: 80px;
+        background-color: white;
+        border-top-width: thin;
+        border-color: #626262;
+        border-bottom-width: thin;
+        border-left-width: thin;
+        border-right-width: thin;
+        font-family: 'Playfair Display', Serif;
+        font-size: 25px;
+        color: rgba(98, 98, 98, 255);
+    }
+
+    .heighttwo {
+        height: 1370px;
+    }
+
+    .footer {
+        background-image: url("image/background@2X.png");
+        width: 1200px;
+        height: 97px;
+        width: 100%;
+    }
+
+    .first {
+        width: 190px;
+        float: left;
+        padding-top: 40px;
+    }
+
+    .second {
+        width: 46px;
+        float: left;
+        padding-top: 40px;
+        margin-left: 26px;
+    }
+
+    .third {
+        padding-top: 40px;
+        float: right;
+        padding-right: 21px;
+    }
+
+    .four {
+        padding-top: 40px;
+        float: right;
+    }
+
+    .forheight {
+        height: 332px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    /* images */
+    .musicfestival img {
+        height: 275px;
+    }
+
+    image {
+        text-align: center;
+        width: 420px;
+        margin: auto;
+    }
+
+    .imagetwo img {
+        height: 275px;
+    }
+
+    .imagefour img {
+        height: 280px;
+    }
+
+    /* text */
+    .navbar h3 {
+        float: left;
+        font-size: 30px;
+        padding-top: 69px;
+        font-family: 'Inconsolata';
+        letter-spacing: 8px;
+    }
+
+    .navbar ul {
+        display: flex;
+        padding: 76px 0px;
+        float: right;
+        font-family: 'Playfair Display', Serif;
+    }
+
+    .navbar li {
+        font-size: 14px;
+        list-style: none;
+    }
+
+    .lione {
+        width: 191px;
+    }
+
+    .litwo {
+        width: 191px;
+    }
+
+    .lithree {
+        width: 137px;
+    }
+
+    .photodiary h6 {
+        font-size: 14px;
+        color: rgba(180, 173, 158, 255);
+        padding-top: 52px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 82px;
+    }
+
+    h5 {
+        font-size: 30px;
+        color: rgba(98, 98, 98, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 28px;
+        padding-left: 81px;
+    }
+
+    .photodiary p {
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 34px;
+        width: 893px;
+        margin: auto;
+        width: 80%;
+    }
+
+    .text h6 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        color: rgba(180, 173, 158, 255);
+        /* display: flex; */
+        font-weight: 100;
+        text-align: center;
+        display: block;
+    }
+
+    .text h5 {
+        padding: 0;
+        padding-top: 28px;
+    }
+
+    .text p {
+        padding-top: 24px;
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        width: 414px;
+        font-family: 'Playfair Display', Serif;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: rgba(51, 51, 51, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 73px;
+        width: 374px;
+        margin: auto;
+    }
+
+    .first h3 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 255);
+        float: right;
+    }
+
+    .second h3 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 255);
+    }
+
+    .third h2 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 255);
+    }
+
+    /* div */
+    .main {
+        margin: auto;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        height: 662px;
+        margin: auto;
+        background-image: url(image/image@1X.png);
+        background-repeat: no-repeat;
+        width: 1063px;
+        width: 100%;
+        background-position: center;
+    }
+
+    .navbarfirst {
+        float: right;
+    }
+
+    .photodiary {
+        margin: auto;
+        width: 1063px;
+        width: 100%;
+    }
+
+    .musicfestival {
+        padding-left: 0px;
+        width: 474px;
+        height: 316px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .posts {
+        padding-left: 46px;
+        width: 1063px;
+        margin: auto;
+        width: 100%;
+        padding-left: 0px;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .text {
+        padding-top: 34px;
+    }
+
+    .firstline {
+        height: 484px;
+        width: 52%;
+        float: none;
+        display: inline-flex;
+    }
+
+    .secondline {
+        width: 422px;
+        height: auto;
+        width: 46%;
+    }
+
+    .forheight {
+        height: 130px;
+    }
+
+    .coffe {
+        height: 321px;
+    }
+
+    .thirdline {
+        width: 52%;
+        height: 70vh;
+        display: inline-block;
+        float: none;
+        padding-left: 0px;
+    }
+
+    .fourthline {
+        float: right;
+    }
+
+    .postsone {
+        height: 505px;
+        width: 1063px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .newsletter {
+        background-image: url("image/background@1X.png");
+        width: 1200px;
+        height: 287px;
+        text-align: center;
+        margin-top: 122px;
+        width: 100%;
+    }
+
+    .input {
+        padding-top: 82px;
+    }
+
+    input {
+        width: 399px;
+        height: 28px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid black;
+        border-left: 0;
+        background-color: #f0f0f0;
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        padding-bottom: 14px;
+        padding-left: 3px;
+        background-image: url("image/send icon@1X.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .americandream {
+        width: 423px;
+        height: 283px;
+    }
+
+    .fourthline {
+        width: 420px;
+        height: 100%;
+        width: 46%;
+    }
+
+    .top10 {
+        padding-left: 60px;
+        padding-left: 0px;
+        display: inline-flex;
+        float: none;
+        width: 55%;
+    }
+
+    .poststwo {
+        height: 590px;
+        padding-top: 102px;
+        width: 1063px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .colddays {
+        width: 42%;
+        float: none;
+        display: inline-grid;
+    }
+
+    .button {
+        text-align: center;
+        padding-top: 165px;
+        width: 1063px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .button button {
+        width: 164px;
+        height: 60px;
+        background-color: white;
+        border-top-width: thin;
+        border-color: #626262;
+        border-bottom-width: thin;
+        border-left-width: thin;
+        border-right-width: thin;
+        font-family: 'Playfair Display', Serif;
+        font-size: 20px;
+        color: rgba(98, 98, 98, 255);
+    }
+
+    .heighttwo {
+        height: 1370px;
+    }
+
+    .footer {
+        background-image: url("image/background@2X.png");
+        width: 1200px;
+        height: 97px;
+        width: 100%;
+    }
+
+    .first {
+        width: 190px;
+        float: left;
+        padding-top: 40px;
+    }
+
+    .second {
+        width: 46px;
+        float: left;
+        padding-top: 40px;
+        margin-left: 26px;
+    }
+
+    .third {
+        padding-top: 40px;
+        float: right;
+        padding-right: 21px;
+    }
+
+    .four {
+        padding-top: 40px;
+        float: right;
+    }
+
+    .imageone {
+        padding-right: 17px;
+    }
+
+    .imagethree {
+        padding-right: 71px;
+    }
+
+    .imagethree img {
+        height: 275px;
+    }
+
+    .imagefour img {
+        float: none;
+        height: 275px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* images */ .musicfestival img {
+        width: 420px;
+        height: 280px;
+    }
+
+    image {
+        text-align: center;
+        width: 420px;
+        margin: auto;
+    }
+
+    .imagetwo img {
+        height: 280px;
+        width: 419px;
+    }
+
+    .imagefour img {
+        width: 419px;
+        height: 280px;
+    }
+
+    /* text */
+    .navbar h3 {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar ul {
+        display: flex;
+        padding: 76px 0px;
+        float: right;
+        font-family: 'Playfair Display', Serif;
+    }
+
+    .navbar li {
+        font-size: 14px;
+        list-style: none;
+    }
+
+    .lione {
+        width: 191px;
+    }
+
+    .litwo {
+        width: 191px;
+    }
+
+    .lithree {
+        width: 137px;
+    }
+
+    .photodiary h6 {
+        font-size: 14px;
+        color: rgba(180, 173, 158, 255);
+        padding-top: 52px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 82px;
+    }
+
+    h5 {
+        font-size: 30px;
+        color: rgba(98, 98, 98, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 28px;
+        padding-left: 81px;
+    }
+
+    .photodiary p {
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 34px;
+        width: 893px;
+        margin: auto;
+        float: none;
+        /* margin: auto; */
+        width: 76%;
+    }
+
+    .text h6 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        color: rgba(180, 173, 158, 255);
+        display: flex;
+        font-weight: 100;
+        display: block;
+    }
+
+    .text h5 {
+        padding: 0;
+        padding-top: 28px;
+    }
+
+    .text p {
+        padding-top: 24px;
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        width: 414px;
+        font-family: 'Playfair Display', Serif;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: rgba(51, 51, 51, 255);
+        font-family: 'Playfair Display', Serif;
+        padding-top: 73px;
+        width: 374px;
+        margin: auto;
+    }
+
+    .navbar ul {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .first h3 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 255);
+        float: right;
+    }
+
+    .second h3 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 255);
+    }
+
+    .third h2 {
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 255);
+    }
+
+    /* div */
+    .main {
+        margin: auto;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .navbarfirst {
+        float: none;
+    }
+
+    .photodiary {
+        margin: auto;
+        width: 1063px;
+        width: 100%;
+    }
+
+    .musicfestival {
+        width: 100%;
+        height: 100%;
+        padding-left: 16px;
+    }
+
+    .posts {
+        padding-top: 135px;
+        padding-left: 46px;
+        width: 1063px;
+        margin: auto;
+        height: 100%;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .text {
+        padding-top: 34px;
+        height: 100%;
+    }
+
+    .firstline {
+        float: left;
+        height: 70vh;
+        float: none;
+        width: 100%;
+    }
+
+    .secondline {
+        float: right;
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+
+    .forheight {
+        height: auto;
+    }
+
+    .coffe {
+        height: 321px;
+        height: auto;
+    }
+
+    .thirdline {
+        width: 100%;
+        padding-left: 60px;
+        float: left;
+        float: none;
+        height: 70vh;
+    }
+
+    .fourthline {
+        float: right;
+    }
+
+    .postsone {
+        height: auto;
+        width: 1063px;
+        float: none;
+        margin: auto;
+    }
+
+    .newsletter {
+        background-image: url("image/background@1X.png");
+        width: 1200px;
+        height: 287px;
+        text-align: center;
+        margin-top: 122px;
+        width: 100%;
+    }
+
+    .input {
+        padding-top: 82px;
+    }
+
+    input {
+        width: 399px;
+        height: 28px;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid black;
+        border-left: 0;
+        background-color: #f0f0f0;
+        font-family: 'Playfair Display', Serif;
+        font-size: 14px;
+        color: rgba(98, 98, 98, 255);
+        padding-bottom: 14px;
+        padding-left: 3px;
+        background-image: url("image/send icon@1X.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .americandream {
+        width: 423px;
+        height: 283px;
+        height: auto;
+    }
+
+    .fourthline {
+        width: 420px;
+        height: 298px;
+        float: none;
+        height: 100%;
+        padding-left: 60px;
+        width: 100%;
+    }
+
+    .top10 {
+        float: left;
+        padding-left: 60px;
+        height: 70vh;
+    }
+
+    .poststwo {
+        height: 590px;
+        padding-top: 102px;
+        width: 1063px;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .colddays {
+        float: right;
+        float: none;
+        padding-left: 60px;
+    }
+
+    .button {
+        text-align: center;
+        padding-top: 165px;
+        width: 1063px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .button button {
+        width: 164px;
+        height: 60px;
+        background-color: white;
+        border-top-width: thin;
+        border-color: #626262;
+        border-bottom-width: thin;
+        border-left-width: thin;
+        border-right-width: thin;
+        font-family: 'Playfair Display', Serif;
+        font-size: 20px;
+        color: rgba(98, 98, 98, 255);
+    }
+
+    .heighttwo {
+        height: 40vh;
+    }
+
+    .footer {
+        background-image: url("image/background@2X.png");
+        width: 1200px;
+        height: 97px;
+        width: 100%;
+    }
+
+    .first {
+        width: 190px;
+        float: left;
+        padding-top: 40px;
+    }
+
+    .second {
+        width: 46px;
+        float: left;
+        padding-top: 40px;
+        margin-left: 26px;
+    }
+
+    .third {
+        padding-top: 40px;
+        float: right;
+        padding-right: 21px;
+    }
+
+    .four {
+        padding-top: 40px;
+        float: right;
+    }
+
+    .imageone {
+        padding-right: 17px;
+    }
+
+    .imagetwo {
+        padding-right: 18px;
+    }
+
+    .imagethree {
+        padding-right: 71px;
+    }
+}
